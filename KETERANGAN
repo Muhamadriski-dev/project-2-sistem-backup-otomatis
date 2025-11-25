@@ -1,0 +1,28 @@
+1.membuat direktori
+   Mkdir project2
+2.masuk kedalam folder yg telah dibuat
+   Cd project2
+3.membuat 3 subfolder didalam folder project2
+   Mkdir source_files backup logs
+4.melakukan pengecekan 
+   ls
+5.masuk kedalam folder source_files
+    Cd source_files
+6.membuat 2 file beserta isi didalam folder source_files 
+7.melakukan pengecekan
+    ls
+8.keluar dari folder source_files
+   cd  .. 
+9.masuk ke nano
+    nano backup.sh
+10.membuat konfigurasi dalam nano
+      SOURCE_DIR (folder sumber tempat file akan dicari) 
+      BACKUP_DIR (folder tempat hasil backup disimpan) 
+      FILE.LOG (lokasi file log) 
+      TIMESTAMP (waktu backup) 
+      BACKUP_NAME (nama file backup) 
+
+11.Memberi izin eksekusi 
+      Chmod +x backup.sh
+12.pengecekan hasil 
+      . /backup.sh
